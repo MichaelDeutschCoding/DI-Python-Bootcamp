@@ -1,0 +1,46 @@
+.flex-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#orange {
+    background-color: coral;
+    padding: 0vw 15vw;
+}
+
+#log {
+    background-color: white;
+    height: 70vh;
+    margin: 10%;
+    text-align: center;
+}
+
+#atlanta {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+input {
+    width: 80%;
+    margin: 15px;
+    height: 25px;
+}
+#pic {
+    text-align: center;
+    padding: 5%;
+}
+
+#submit {
+    background-color: coral;
+    color: white;
+    height: 35px;
+}
+
+::placeholder {
+    padding-left: 15px;
+}

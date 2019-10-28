@@ -1,0 +1,95 @@
+header {
+    width: 100%;
+    float: none;
+    background-color: pink;
+    font-family: 'Cormorant Upright', serif;
+    font-size: 30px;
+    color: white;
+    height: auto;
+    display:inline-block;
+}
+
+aside{
+    width: 25%;
+    padding: 12px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg);
+}
+footer{
+    background-color: yellow;
+    height: 55px;
+    width: 100%;
+    text-align: right;
+}
+
+ul{
+    display:inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+li{
+    float:right;
+}
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 18px 20px 10px 20px;
+}
+li a:hover{
+    background-color: purple;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
+.flex-cont{
+    display:flex;
+    height: 100%;
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color:gray;
+    font-family: 'Stoke', serif;
+    padding: 8px;
+
+}
+form{
+    line-height: 150%;
+}
+input{
+    margin: 10px;
+}
+
+#contact{
+    border: 2px solid;
+    padding: 6px;
+}
+
+@media(max-width: 768px) {
+    header{
+        width:100%;
+        float:none;
+    }
+    .flex-cont{
+        display:block;
+    }
+    .articles{
+        width: 100%;
+        float:none;
+    }
+    aside{
+        width:100%;
+        float:none;
+    }
+    ul{
+        display:block;
+    }
+    li{
+        float:none;
+    }
+}

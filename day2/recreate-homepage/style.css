@@ -1,0 +1,68 @@
+.hero-image{
+    background-image: url("business-man-cropped.jpg");
+    height: 550px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.center-text{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    padding: 70px 25vw 20px 30vw;
+}
+
+header{
+    min-height: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding 0px 20px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding: 10px 25px;
+}
+
+.button-zone{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    color: rgba(7, 7, 115, 0.66);
+}
+
+.bot-cont{
+    padding: 15px;
+    margin: 10px;
+    width: 15vw;
+}
+
+.learn{
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.7)
+}

@@ -127,7 +127,7 @@ table {
 }
 
 input[type=text], [type=email] {
-    width: 60%%;
+    width: 60%;
     padding: 8px 12px;
     margin: 8px 0;
     display: inline-block;

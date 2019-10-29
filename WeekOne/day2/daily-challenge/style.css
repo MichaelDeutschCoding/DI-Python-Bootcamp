@@ -1,10 +1,21 @@
+.pattern1{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    background-image: linear-gradient(45deg, orange 25%, transparent 25%, transparent 75%, beige 75%, black),
+    linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    margin:30px;
+}
+
 .pattern2{
     display: grid;
     grid-gap: 8px;
     height: 400px;
     width: 400px;
     grid-template-columns: repeat(12, minmax(50px, 1fr));
-
+    margin: 30px;
 }
 
 .color1{
@@ -27,4 +38,5 @@
     background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%),
 linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
     background-size:50px 50px;
+    margin: 30px;
 }

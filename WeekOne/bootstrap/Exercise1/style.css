@@ -1,0 +1,21 @@
+.col{
+    border-radius: 5px;
+    margin: 6px 10px;
+}
+.top-row{
+    background-color: #3b6ff8;
+    height: 70px;
+}
+
+.row-mid{
+    height: 130px;
+}
+.row-bottom{
+    height: 60px;
+}
+.yell{
+    background-color: #faec46
+}
+.four{
+    background-color: #fcaa4b
+}

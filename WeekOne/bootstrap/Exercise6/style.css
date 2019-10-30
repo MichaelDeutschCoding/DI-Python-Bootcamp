@@ -1,0 +1,18 @@
+.form-control{
+    box-shadow: 2px 2px 5px gray;
+    width: 80%;
+}
+
+body{
+    margin: 10px;
+}
+.btn-primary{
+    margin-left: 20%;
+}
+@media (min-width: 768px)
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 40%;
+    margin-right: 40px;
+}

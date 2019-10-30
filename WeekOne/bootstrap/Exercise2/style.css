@@ -1,0 +1,22 @@
+.box{
+    border: 1px solid black;
+    /* margin:5px; */
+}
+
+.top-row{
+    background-color: #3b6ff8;
+    height: 70px;
+}
+
+.row-mid{
+    height: 130px;
+}
+.row-bottom{
+    height: 60px;
+}
+.yell{
+    background-color: #faec46
+}
+.four{
+    background-color: #fcaa4b
+}

@@ -1,8 +1,15 @@
 .sidebar{
-    border-margin: 8px;
+    border-radius: 8px;
     max-height: 260px;
 }
 
 .img-thumbnail{
     height:180px;
+}
+
+footer{
+    text-align: right;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    color: rgba(66,66,66, .8)
 }

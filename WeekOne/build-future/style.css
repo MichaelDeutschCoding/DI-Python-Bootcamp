@@ -1,0 +1,51 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.myjumbo{
+    width: 100%;
+    height: 95vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(job-interview.jpg);
+    color: white;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+}
+
+.navbar-brand > span{
+    color: #8ac338;
+    font-size: 1.2rem;
+}
+
+.display-4{
+    margin-top: 6rem;
+}
+
+.form-row{
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.jobtypes{
+    background-color: #8abf3b;
+    height: 220px;
+    border-right: 1px solid white;
+    padding-top: 55px;
+}
+
+.latest{
+    padding: 3rem;
+}
+
+.view{
+    background-color: #8abf3b;
+    padding 25px;
+    margin: 25px;
+}

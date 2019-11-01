@@ -2,9 +2,13 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="https://kit.fontawesome.com/694072c986.js" crossorigin="anonymous"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
+
 		<title>Build Your Future</title>
 	</head>
 
@@ -12,7 +16,7 @@
 		<div class="jumbotron myjumbo">
 
 			<nav class="navbar navbar-dark navbar-expand fixed-top">
-				<a class="navbar-brand" href="#">INTENSE <span>Job Board</span></a>
+				<a class="navbar-brand ml-4" href="#">INTENSE <span>Job Board</span></a>
 				<ul class="navbar-nav ml-auto mr-4">
 					<li class="nav-item mr-4">
 						<a class="nav-link" href="#">Home</a></li>
@@ -42,33 +46,46 @@
 			</form>
 
 		</div>
-		<div class="row ">
-			<div class="col-2 jobtypes text-white">
-				Healthcare
+		<div class="row" style="width: 100vw">
+			<div class="col-md-2 jobtypes text-white">
+				<div><i class="fas fa-clinic-medical fa-3x"></i></div>
+				<h4>Healthcare</h4>
+				<div class="divider-line"></div>
 			</div>
-			<div class="col-2 jobtypes text-white">
-				Automobile Jobs
+			<div class="col-md-2 jobtypes text-white">
+				<i class="fas fa-car fa-3x"></i>
+				<h4>Automobile Jobs</h4>
+				<div class="divider-line"></div>
 			</div>
-			<div class="col-2 jobtypes text-white">
-				Construction
+			<div class="col-md-2 jobtypes text-white">
+				<i class="fas fa-hard-hat fa-3x"></i>
+				<h4>Construction</h4>
+				<div class="divider-line"></div>
 			</div>
-			<div class="col-2 jobtypes text-white">
-				Food Service
+			<div class="col-md-2 jobtypes text-white">
+				<i class="fas fa-utensils fa-3x"></i>
+				<h4>Food Service</h4>
+				<div class="divider-line"></div>
 			</div>
-			<div class="col-2 jobtypes text-white">
-				Logistics
+			<div class="col-md-2 jobtypes text-white">
+				<i class="fas fa-shipping-fast fa-3x"></i>
+				<h4>Logistics</h4>
+				<div class="divider-line"></div>
 			</div>
-			<div class="col-2 jobtypes text-white">
-				Finance
+			<div class="col-md-2 jobtypes text-white">
+				<i class="fas fa-comments-dollar fa-3x"></i>
+				<h4>Finance</h4>
+				<div class="divider-line"></div>
 			</div>
 
 		</div>
 
 
-		<div class="container">
-			<h3 class="latest">Latest Jobs</h3>
+		<div class="container page-section">
+			<h3 class="section-header">Latest Jobs</h3>
+			<div class="section-divider"></div>
 			<div class="row">
-				<table id="example" class="table table-striped table-bordered" style="width:100%">
+				<table id="example" class="table table-striped table-bordered">
 					<thead>
 							<tr>
 									<th>Name</th>
@@ -123,7 +140,26 @@
 									</tbody>
 				</table>
 			</div>
-			<button type="button" class="view">View All</button>
+			<button class="btn btn-primary">View All</button>
+		</div>
+		<div class="container page-section why-choose">
+			<h3 class="section-header">Why People Choose Us</h3>
+			<div class="section-divider"></div>
+			<div class="row justify-content-center" style="text-align: left">
+				<div class="col-md-3">
+					<h5><i class="fas fa-user-check mr-3"></i>Verified employers</h5>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur amet hic quisquam, nesciunt a commodi nobis debitis.</p>
+				</div>
+				<div class="col-md-3">
+						<h5><i class="fas fa-briefcase mr-3"></i>  Multiple Vacancies</h5>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur amet hic quisquam, nesciunt a commodi nobis debitis.</p>
+					</div>
+				<div class="col-md-3">
+					<h5><i class="fas fa-blog mr-3"></i>Our Blog</h5>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur amet hic quisquam, nesciunt a commodi nobis debitis.</p>
+				</div>					
+			</div>
+
 		</div>
 	</body>
 </html>

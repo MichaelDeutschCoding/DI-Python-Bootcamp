@@ -1,0 +1,19 @@
+body{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-gap: 8px;
+}
+
+.num {
+    height: 80px;
+    background-color: rgba(66,66,66, 0.5);
+}
+
+.op {
+    height: 80px;
+    background-color: lightgoldenrodyellow;
+}
+
+.clear {
+    background-color: lightblue;
+}

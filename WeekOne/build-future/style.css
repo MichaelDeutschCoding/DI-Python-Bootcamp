@@ -5,7 +5,8 @@ body{
 
 .myjumbo{
     width: 100%;
-    height: 95vh;
+    height: 100vh;
+    min-height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -53,7 +54,7 @@ body{
 
 .view{
     background-color: #8abf3b;
-    padding 25px;
+    padding: 25px;
     margin: 25px;
 }
 

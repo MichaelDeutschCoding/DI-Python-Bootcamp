@@ -1,0 +1,27 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    max-width: 500px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    margin: 10px 8px;
+    background-size: cover;
+    padding: 6px;
+}
+
+.cardButton {
+    background-image: url(images/back.jpg);
+    height: 100px;
+
+}
+
+#turns {
+    height: 30px;
+    width: 100%;
+
+}

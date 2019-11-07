@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Ninety Nine Bottles of Beer</title>
+        <script src="main.js"></script>
+        <style>
+            button {
+                height: 250px;
+                width: 400px;
+                background: url(beer_bottles_image.jpg);
+                background-size: cover;
+                font-size: 24px;
+                color: white;
+                font-weight: 600;
+                text-shadow: 4px -2px 3px black;
+                margin-right: 30px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <button type="button" onclick="bottles(99)">Click to count 99 Bottles of Beer</button>
+        <button type="button" onclick="bottles(prompt('How many bottles should we start with?'))">Choose Number of Bottles</button>
+    </body>
+</html>

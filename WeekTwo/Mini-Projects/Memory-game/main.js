@@ -1,4 +1,4 @@
-const cards = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6]
+const cards = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10]
 
 function shuffle(array) {
     array.sort(() => Math.random() - 0.5);
@@ -20,7 +20,15 @@ shuffledCards = {
     8: [cards[8], false],
     9: [cards[9], false],
     10:[cards[10], false],
-    11:[cards[11], false]
+    11:[cards[11], false],
+    12 : [cards[12], false],
+    13 : [cards[13], false],
+    14 : [cards[14], false],
+    15 : [cards[15], false],
+    16 : [cards[16], false],
+    17 : [cards[17], false],
+    18 : [cards[18], false],
+    19 : [cards[19], false],
 }
 
 console.log(shuffledCards)
@@ -32,7 +40,9 @@ var endTurn = false;
 
 function memory(buttonID) {
     if (endTurn) {
-        // alert("Cheater");
+        return
+    }
+    if (buttonID == firstButton) {
         return
     }
     // buttonArray[buttonID].innerHTML = shuffledCards[buttonID][0]
@@ -59,19 +69,25 @@ function memory(buttonID) {
         else{
             console.log("Not a match.")
             endTurn = true;
+            document.getElementById("clear").style.backgroundColor = "red";
         }
         firstGuess = null;
         firstButton = null;
 
     }
-    console.log(buttonID, shuffledCards[buttonID]);
 }
 
 function reset() {
     endTurn = false;
+    document.getElementById("clear").style.backgroundColor = "lightgray";
     for (i=0; i<cards.length; i++) {
         if (!shuffledCards[i][1]) {
             buttonArray[i].style.backgroundImage = "url(images/back.jpg)";
         }
     }
+}
+
+function cheat() {
+    for (let i = 0; i<buttonArray.length; i++) {
+        buttonArray[i].style.backgroundImage = "url(images/"+ shuffledCards[i][0]  +".jpg)"}
 }

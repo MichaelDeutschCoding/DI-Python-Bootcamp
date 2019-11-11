@@ -2,13 +2,13 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Memory</title>
+        <title>Memory Game</title>
         <link rel="stylesheet" href="style.css">
 
     </head>
     <body>
         <h1>Memory Game!</h1>
-        <div class="cards">
+        <div id="card-table">
             <button type="button" class="cardButton" onclick="memory('0')"></button>
             <button type="button" class="cardButton" onclick="memory('1')"></button>
             <button type="button" class="cardButton" onclick="memory('2')"></button>
@@ -21,12 +21,37 @@
             <button type="button" class="cardButton" onclick="memory('9')"></button>
             <button type="button" class="cardButton" onclick="memory('10')"></button>
             <button type="button" class="cardButton" onclick="memory('11')"></button>
+            <button type="button" class="cardButton" onclick="memory('12')"></button>
+            <button type="button" class="cardButton" onclick="memory('13')"></button>
+            <button type="button" class="cardButton" onclick="memory('14')"></button>
+            <button type="button" class="cardButton" onclick="memory('15')"></button>
+            <button type="button" class="cardButton" onclick="memory('16')"></button>
+            <button type="button" class="cardButton" onclick="memory('17')"></button>
+            <button type="button" class="cardButton" onclick="memory('18')"></button>
+            <button type="button" class="cardButton" onclick="memory('19')"></button>
+            <button type="button" class="cardButton" onclick="memory('20')"></button>
+            <button type="button" class="cardButton" onclick="memory('21')"></button>
+            <button type="button" class="cardButton" onclick="memory('22')"></button>
+            <button type="button" class="cardButton" onclick="memory('23')"></button>
+            
+            <div id="turns">Turn Number: 0</div>
+            <button type="button" id="clear" onclick="reset()">Turn Cards Back Over</button>
+            
+
         </div>
 
-        <button type="button" id="clear" onclick="reset()">Pick next Pair</button>
+        <div id="start-game">
+            <h4 id="start-game-header">Click here to start a new game. Choose how many cards you want.</h4>
+            <button class="start-game-button" onclick="playGame(6)">6 Cards</button>
+            <button class="start-game-button" onclick="playGame(8)">8 Cards</button>
+            <button class="start-game-button" onclick="playGame(12)">12 Cards</button>
+            <button class="start-game-button" onclick="playGame(16)">16 Cards</button>
+            <button class="start-game-button" onclick="playGame(18)">18 Cards</button>
+            <button class="start-game-button" onclick="playGame(20)">20 Cards</button>
+            <button class="start-game-button" onclick="playGame(24)">24 Cards</button>
+            </div>
 
-
-        <div id="turns">Turn Number: 0</div>
-        <script src="main.js"></script>
+        <!-- <script src="main.js"></script> -->
+        <script src="customized.js"></script>
     </body>
 </html>
